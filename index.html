@@ -17,42 +17,101 @@
     </head>
     <body>
         <!--creo wrapper per raccogliere la grafica web application -->
-        <div class="wrapper">
+        
 
             <!--inizio header-->
-            <header>
-                <button class="transparentBtn" type="button"><i class="fa-solid fa-border-all"></i>&nbsp;Speaker view</button>
-                <button class="transparentBtn" type="button"><i class="fa-solid fa-expand"></i></button>
+            <header class="bgBlack">
+                <button class="transparentBtn whiteFont smallFont" type="button"><i class="fa-solid fa-border-all"></i>&nbsp;Speaker view</button>
+                <button class="transparentBtn whiteFont smallFont" type="button"><i class="fa-solid fa-expand"></i></button>
             </header>
             <!--fine header-->
 
 
             <!--inizio main-->
-            <main>
-                <div class="usersContainer debug debugBigWidth"></div>
-
+            <main class="bgBlack">
+                <div class="wrapper">
+                    <div class="usersContainer debug debugBigWidth"></div>
+                    <i class="fa-solid fa-microphone debug"></i>
+                </div>
             </main>
             <!--fine main-->
 
             <!--inizio footer-->
             <footer>
                 <!-- creo la barra nav flex e metto i componenti space between -->
-                <nav class="flex debug">
+                <nav class="flex whiteFont debug">
 
                     <!-- per gli li creo una classe functionBox -->
-                    <ul class="flex debug debugSmallWidth">
-                        <li></li>
-                        <li></li>
-                    </ul>
-                    <ul class="flex debug debugSmallWidth">
-                        <li class="functionBox"></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
+                    <ul class="flex debug ">
+                        <li class="functionBox">
+                            <div>
+                                <i class="fa-solid fa-microphone icon"></i>
+                            </div>
+                            <div class="action smallFont">Mute</div>
+                        </li>
+                        <li class="functionBox">
+                            <i class="fa-solid fa-angle-up smallFont"></i>
+                        </li>
+                        <li class="functionBox">
+                            <div>
+                                <i class="fa-solid fa-video icon"></i>
+                            </div>
+                            <div class="action smallFont">Stop Video</div>
+                        </li>
+                        <li class="functionBox">
+                            <i class="fa-solid fa-angle-up smallFont"></i>
+                        </li>
+                    </ul> 
+                    <ul class="flex debug">
+                        <li class="functionBox">
+                            <div>
+                                <i class="fa-solid fa-user-plus icon"></i>
+                            </div>
+                            <div class="action smallFont">Invite</div>
+                        </li>
+                        <li class="functionBox">
+                            <div>
+                                <i class="fa-solid fa-microphone icon"></i>
+                            </div>
+                            <div class="action smallFont">Manage Participants</div>
+                        </li>
+                        <li class="functionBox">
+                            <div>
+                                <i class="fa-solid fa-microphone icon"></i>
+                            </div>
+                            <div class="action smallFont">Mute</div>
+                        </li>
+                        <li class="functionBox">
+                            <div>
+                                <i class="fa-solid fa-microphone icon"></i>
+                            </div>
+                            <div class="action smallFont">Mute</div>
+                        </li>
+                        <li class="functionBox">
+                            <div>
+                                <i class="fa-solid fa-microphone icon"></i>
+                            </div>
+                            <div class="action smallFont">Mute</div>
+                        </li>
+                        <li class="functionBox">
+                            <div>
+                                <i class="fa-solid fa-microphone icon"></i>
+                            </div>
+                            <div class="action smallFont">Mute</div>
+                        </li>
+                        <li class="functionBox">
+                            <div>
+                                <i class="fa-solid fa-microphone icon"></i>
+                            </div>
+                            <div class="action smallFont">Mute</div>
+                        </li>
+                        <li class="functionBox">
+                            <div>
+                                <i class="fa-solid fa-microphone icon"></i>
+                            </div>
+                            <div class="action smallFont">Mute</div>
+                        </li>
+                        
                     </ul>
                     <div class="endCall debug debugSmallWidth"></div>
                 </nav>
