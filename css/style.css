@@ -1,5 +1,5 @@
 /*reset rulez*/
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -82,29 +82,29 @@ header{
 /*main*/
 
 .wrapper{
-    padding-top: 80px;
-    position: relative;
-    height: 100vh;
-    width: 90%;
+    height:calc(100vh - 160);
+    padding:80px 0;
+    width: 92%;
     margin: auto;
-    overflow-y: auto;
 }
 
 
 .columns{
-    height: 100vh;
     flex-wrap: wrap;
     justify-content: flex-start;
     align-items: flex-start;
 }
 
+
 .col{
+    overflow: auto;
     margin: 5px 15px;
     background-image: url(https://picsum.photos/id/10/200/200);
+    background-size: cover;
     position: relative;
-    padding: 5px 2px;
-    width: calc(100vw / 7);
-    height: calc(100vh / 5);
+    width: 200px;
+    height: 200px;
+
 }
 
 
@@ -122,26 +122,11 @@ header{
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*footer*/
 footer{
     position: fixed;
     z-index: 999;
-    width: 100vw;
+    width: 100%;
     bottom: 0;
     left: 0;
 }
@@ -181,7 +166,7 @@ nav ul{
     line-height: 70px;
 }
 
-.functionBox:hover{
+.functionBox:hover, .endCall:hover{
     cursor: pointer;
 }
 
