@@ -40,6 +40,15 @@ body{
     color:white;
 }
 
+.greenFont{
+    color:rgb(67, 200, 0);
+}
+
+.redFont{
+    color:red;
+}
+
+
 .smallFont{
     font-size: 10px;
 }
@@ -126,10 +135,16 @@ nav ul{
 
 
 .endCall{
+    height: 100%;
+    width: 120px;
     background-color: rgba(255, 255, 255, 0.3);
+    text-align: center;
+    line-height: 70px;
 }
 
-
+.functionBox:hover{
+    cursor: pointer;
+}
 
 
 
